@@ -40,7 +40,7 @@ const timer = () => {
 
         clickarea.removeEventListener('click', c);
 
-        time = timeMax * 100;
+        time = maxTime * 100;
         const cps = Math.round(clicks / maxTime * 100) / 100;
 
         localStorage.setItem('cps', cps);
